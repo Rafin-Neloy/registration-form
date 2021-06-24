@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Registration Form</title>
+    </head>
+    <body>
+    <h2>Registration Form</h2>
+      <fieldset>
+        <legend>Basic information</legend>
+
+        <label for="firstname">Enter your first name: </label>
+        <input type="text" id="firstname" name="firstname">
+        <br>
+
+        <label for="lastname">Enter your last name:</label>
+        <input type="text" id="lastname" name="lastname">
+        <br>
+
+        <label for="gender">Gender </label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <br>
+
+        <label for="dob">Date of Birth: </label>
+        <input type="date" id="dob" name="dob">
+        <br>
+
+        <label for="religion">Enter your Religion: </label>
+        <select name="religion">
+           <option value="islam">Islam</option>
+           <option value="chritian">Christian</option>
+           <option value="buddha">Buddha</option>
+           <option value="hisdu">Hindu</option>
+        </select>
+      </fieldset>
+        <br>
+
+      <fieldset>
+        <legend>Contact Information</legend>
+        <label for="present">Present Address: </label>
+        <textarea id="present" name="present" rows="3" cols="20"> </textarea> 
+        <br>
+
+        <label for="permanent">Permanent Address: </label>
+        <textarea id="permanent" name="permanent" rows="3" cols="20"> </textarea> 
+        <br>
+
+        <label for="tel">Telephone: </label>
+        <input type="tel" id="tel" name="tel">
+        <br>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email">
+        <br>
+
+        <label for="link">Personal Website Link:</label>
+        <input type="url" id="link" name="link" >
+      </fieldset>
+      <br><br>
+
+      <fieldset>
+        <legend>Academic Information</legend>
+      </fieldset>
+      <br><br>
+      <input type="submit" value= "submit">
+    </form>
+</body>
+</html>
